@@ -132,25 +132,13 @@ footer .container {
     font-size: 2rem;
   }
   /* 13. изображения занимают всю ширину экрана */
-  /*.gallery img {
-    max-width: 100%;
-    padding: 0;
-  }
-  /* 14. форматирование текста нижнего колонтитула */
-  /*footer .nav {
-    display: none; 
-  } */
-}
-
-@media only screen and (max-width: 470px) {
   .gallery img {
     max-width: 100%;
     padding: 0;
   }
-}
-
-@media only screen and (max-width: 470px) {
+  /* 14. форматирование текста нижнего колонтитула */
   footer .nav {
     display: none; 
-  }
+  } 
 }
+
