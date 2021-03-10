@@ -14,7 +14,7 @@ body {
 .main {
   height: 30rem;
   padding-top: 1rem;
-  background: url("../img/bg-photo.png"); /* 1. добавление фонового изображения */
+  background: url("../img/latte.png"); /* 1. добавление фонового изображения */
   background-size: cover; /*1. с размером cover */
 }
 
@@ -28,10 +28,7 @@ body {
 nav {
   background-color: OrangeRed;
   color: White;
-  padding-top: 0.75rem; /*2. дополнительный отступ сверху */
-  padding-bottom: 0.75rem; /*2. дополнительный отступ снизу */
-  padding-left: 1.25rem; /*2. дополнительный отступ слева */
-  padding-right: 1.25rem; /*2. дополнительный отступ справа */
+  padding: 0.75rem 1.25rem; /*2. дополнительные отступы */
 }
 
 ul {
@@ -129,16 +126,17 @@ footer .container {
 @media only screen and (max-width: 470px) {
   /* 12. размер шрифта 32px */
   .rating h1 {
-    font-size: 2rem;
+    font-size: 0.8rem;
   }
   /* 13. изображения занимают всю ширину экрана */
   .gallery img {
     max-width: 100%;
-    padding: 0;
+    margin: 0;
   }
   /* 14. форматирование текста нижнего колонтитула */
   footer .nav {
     display: none; 
   } 
 }
+
 
